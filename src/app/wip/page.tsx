@@ -1,9 +1,11 @@
 import Button from "react-bootstrap/esm/Button";
-import Logo from "../components/mtlPreserves.svg"
+import Logo from "../components/logo.svg"
 import Image from "next/image";
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import { MdRoundedCorner } from "react-icons/md";
+import Link from "next/link";
 
 
 
@@ -17,6 +19,7 @@ export default function WorkInProgress() {
                     quality={500}
                     width={500}
                     placeholder="empty"
+                    className="roundedCor"
                 />
                 <br/>
             </div>
@@ -38,15 +41,16 @@ export default function WorkInProgress() {
                     </p>
                 </div>
                 <div className="centRoid">
-                    <Button>
-                        <FaInstagram />
-                    </Button>
-                    <Button>
-                        <FaFacebookSquare />
-                    </Button>
-                    <Button>
-                        <FaXTwitter />
-                    </Button>
+                    <Link href={"https://www.instagram.com/mtlpreserves?igsh=MTgwMzdmNHFncGh5NA=="}>
+                        <Button>
+                            <FaInstagram />
+                        </Button>
+                    </Link>
+                    <Link href={"https://www.facebook.com/profile.php?id=100090603374739&locale=hi_IN&paipv=0&eav=Afba6DE9eYJepFPrzYhMAAqr3Y7chwbbke37FMm6OLqN1y-YJuuIZsFJak6lKuhkS6g"}>
+                        <Button>
+                            <FaFacebookSquare />
+                        </Button>
+                    </Link>
                 </div>
             </div>
         </div>

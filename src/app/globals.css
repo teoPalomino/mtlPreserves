@@ -150,7 +150,7 @@ form button {
 }
 
 .centRoid {
-  @apply flex flex-row;
+  @apply flex flex-row justify-center;
 }
 
 .foota {
@@ -159,4 +159,8 @@ form button {
 
 .center_text {
   @apply flex justify-center;
+}
+
+.roundedCor {
+  @apply rounded-lg hover:rounded-full
 }
