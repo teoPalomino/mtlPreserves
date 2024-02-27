@@ -46,7 +46,7 @@ export default function WorkInProgress() {
                             <FaInstagram />
                         </Button>
                     </Link>
-                    <Link href={"https://www.facebook.com/profile.php?id=100090603374739&locale=hi_IN&paipv=0&eav=Afba6DE9eYJepFPrzYhMAAqr3Y7chwbbke37FMm6OLqN1y-YJuuIZsFJak6lKuhkS6g"}>
+                    <Link href={"https://www.facebook.com/profile.php?id=100090603374739&mibextid=ZbWKwL"}>
                         <Button>
                             <FaFacebookSquare />
                         </Button>
