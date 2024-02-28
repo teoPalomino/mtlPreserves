@@ -10,7 +10,6 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "MTL Preserves",
   description: "Local MTL Company",
-  icon: "",
 };
 
 export default function RootLayout({
