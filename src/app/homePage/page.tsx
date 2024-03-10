@@ -28,7 +28,7 @@ export default function HomePage() {
         <br/>
         MTL Preserves is a new small business with the goal of creating and providing traditionally made preserved foods that can be enjoyed by everyone! Our products range from jams to pickled goods, from sweet to spicy and sometimes both at the same time! We strive to keep our foods as natural as possible, part of which is avoiding the use of artificial preservatives, colorants or flavoring.
         <br/><br/>
-        MTL Preserves est une nouvelle petite entreprise dont l'objectif est de créer et de fournir des conserves traditionnelles qui peuvent être appréciées par tout le monde! Nos produits consistent en des confitures, des produits marinés, des produits sucrés ou épicés, et parfois les deux à la fois! Nous nous efforçons de garder nos aliments aussi naturels que possible, notamment en évitant l'utilisation de conservateurs, de colorants ou d'arômes artificiels.
+        MTL Preserves est une nouvelle petite entreprise dont l&lsquo;objectif est de créer et de fournir des conserves traditionnelles qui peuvent être appréciées par tout le monde! Nos produits consistent en des confitures, des produits marinés, des produits sucrés ou épicés, et parfois les deux à la fois! Nous nous efforçons de garder nos aliments aussi naturels que possible, notamment en évitant l&lsquo;utilisation de conservateurs, de colorants ou d&lsquo;arômes artificiels.
       </div>
     </main>
   );

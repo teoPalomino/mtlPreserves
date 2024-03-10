@@ -31,7 +31,7 @@ export default function Products() {
               </div>
             <div className="p-5">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-[#f29b43] underline decoration-solid text-center">Pepper Jelly</h5>
-              <p className="mb-3 font-normal text-gray-700 text-center">A unique spread that's both sweet and spicy, and goes great with cheese!</p>
+              <p className="mb-3 font-normal text-gray-700 text-center">A unique spread that&lsquo;s both sweet and spicy, and goes great with cheese!</p>
             </div>
           </div>
           
@@ -62,7 +62,7 @@ export default function Products() {
           </div>
         </div>
         <div className="m-10 font-black text-center">
-            If you'd like to place an order,&nbsp;
+            If you&lsquo;d like to place an order,&nbsp;
             <a target="_blank" href="https://mtlpreserves.com/contactUs" className="underline decoration-solid text-center">contact us</a>&nbsp;
             or go through our friends at&nbsp;
             <a target="_blank" href="https://radish.coop/en/march%C3%A9/merchants/mtl-preserves" className="underline decoration-solid text-center">Radish Co-op</a>!

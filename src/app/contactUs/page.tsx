@@ -5,9 +5,9 @@ export default function ContactUs() {
         <div  className="centCoid2">
           {/* <h2> Contact Information </h2> */}
           <br/>
-          We're happy to answer any questions you might have! You can reach us at mtlpreserves@protonmail.com or via social media!
+          We&lsquo;re happy to answer any questions you might have! You can reach us at mtlpreserves@protonmail.com or via social media!
           <br/><br/>
-          Nous nous ferons un plaisir de répondre à vos questions! Vous pouvez nous contacter à l'adresse mtlpreserves@protonmail.com ou via les médias sociaux!
+          Nous nous ferons un plaisir de répondre à vos questions! Vous pouvez nous contacter à l&lsquo;adresse mtlpreserves@protonmail.com ou via les médias sociaux!
           {/* <div className="foota">
               <div>
                   <p>
