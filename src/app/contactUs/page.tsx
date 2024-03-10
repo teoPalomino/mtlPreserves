@@ -9,7 +9,7 @@ export default function ContactUs() {
         <div  className="centCoid2 font-black">
           {/* <h2> Contact Information </h2> */}
           <br/>
-          We&lsquo;re happy to answer any questions you might have! You can reach us at <a href="" className="text-blue-700 underline decoration-solid">mtlpreserves@protonmail.com</a> or via social media!
+          We&lsquo;re happy to answer any questions you might have! You can reach us at <a href="mailto:mtlpreserves@protonmail.com" className="text-blue-700 underline decoration-solid">mtlpreserves@protonmail.com</a> or via social media!
           <br/><br/>
           <div>
             <div className="flex flex-direction-row justify-center">
@@ -28,25 +28,6 @@ export default function ContactUs() {
           </div>
           <br/>
           Nous nous ferons un plaisir de répondre à vos questions! Vous pouvez nous contacter à l&lsquo;adresse mtlpreserves@protonmail.com ou via les médias sociaux!
-          {/* <div className="foota">
-              <div>
-                  <p>
-                      Stay connected / Rester connecté:
-                  </p>
-              </div>
-              <div className="centRoid">
-                  <Link href={"https://www.instagram.com/mtlpreserves?igsh=MTgwMzdmNHFncGh5NA=="}>
-                      <Button>
-                          <FaInstagram />
-                      </Button>
-                  </Link>
-                  <Link href={"https://www.facebook.com/profile.php?id=100090603374739&mibextid=ZbWKwL"}>
-                      <Button>
-                          <FaFacebookSquare />
-                      </Button>
-                  </Link>
-              </div>
-          </div> */}
         </div>
       </main>
     )
