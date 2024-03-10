@@ -185,13 +185,9 @@ form button {
 .centCoid2 {
   @apply
     flex flex-col
-    items-center
     text-center 
-    p-7
-    justify-center
-    max-w-[75%]
-    mt-10
-    mb-20
+    max-w-[90%]
+    top-0
     ;
 }
 
