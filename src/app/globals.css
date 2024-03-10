@@ -4,14 +4,15 @@
 
 /* base styles */
 body {
-  background: #222222;
-  @apply text-gray-500 m-8;
+  /* background color 222222 */ 
+  background: #67b2bb; 
+  @apply text-red-900 m-8;
 }
 h1, h2 {
   @apply font-bold text-lg;
 }
 main {
-  @apply max-w-5xl my-12 mx-auto px-8;
+  @apply max-w-5xl my-12 mx-auto;
 }
 main > h2 {
   @apply mb-4 pb-2 text-base ;
@@ -23,19 +24,22 @@ p > a {
 /* nav styles */
 nav {
   @apply
-    pb-4
-    border-b-2 border-gray-200
-    flex items-center gap-5 
-    my-10 mx-auto 
-    max-w-5xl
-    
-    bg-gradient-to-r from-teal-500 to-blue-500;
+    grid grid-cols-1 items-center gap-2
+    min-h-[80px]
+    divide-blue-500
+    font-bold
+    /* max-w-5xl */
+    text-center
+    justify-items-center
+    bg-gradient-to-b from-[#f5daab] via-[#d1dee2] to-[#67b2bb]
+    /* hover:from-[#ffffff] hover:via-[#ffffff] hover:to-[#ffffff] hover:animate-bounce */
+    min-[620px]:grid-cols-5;
 }
 nav a, nav span {
-  @apply text-gray-500;
+  @apply text-gray-600;
 }
 nav a:hover {
-  @apply text-black;
+  @apply text-blue-500;
 }
 main nav {
   @apply border-0;
@@ -146,15 +150,73 @@ form button {
 } */
 
 .centCoid {
-  @apply flex flex-col justify-center items-center justify-between text-center;
+  @apply
+    flex flex-col
+    items-center
+    text-center p-7
+    max-w-6xl
+    mt-10
+    mb-20
+    min-h-screen
+    ;
+}
+
+.centCoidWIP {
+  @apply
+    flex flex-col
+    items-center
+    text-center p-7
+    max-w-6xl
+    ;
+}
+
+.centCoidHome {
+  @apply
+    flex flex-col
+    items-center
+    text-center
+    max-w-6xl
+    mt-10
+    mb-20
+    min-h-screen
+    ;
+}
+
+.centCoid2 {
+  @apply
+    flex flex-col
+    items-center
+    text-center 
+    p-7
+    justify-center
+    max-w-[75%]
+    mt-10
+    mb-20
+    ;
+}
+
+.centRgrid {
+  @apply
+    grid grid-cols-1 gap-4
+    min-[1000px]:grid-cols-2
+    place-items-center
+    ;
 }
 
 .centRoid {
-  @apply flex flex-row justify-center;
+  @apply 
+    flex flex-row justify-center;
+}
+
+.centRoid2 {
+  @apply 
+    flex flex-row justify-center
+    mb-20
+    mt-10;
 }
 
 .foota {
-  @apply absolute bottom-10;
+  @apply flex flex-row justify-center absolute bottom-10;
 }
 
 .center_text {
@@ -162,5 +224,11 @@ form button {
 }
 
 .roundedCor {
-  @apply rounded-lg hover:rounded-full
+  @apply rounded-lg 
+  /* hover:rounded-full */
+  ;
+}
+
+.productImage {
+  @apply rounded-full;
 }

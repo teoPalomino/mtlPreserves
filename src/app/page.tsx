@@ -7,7 +7,7 @@ import HomePage from "./homePage/page";
 
 export default function Home() {
   
-  const wip = true;
+  const wip = false;
   return (
     <main>
       <div>
