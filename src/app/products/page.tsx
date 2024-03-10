@@ -9,10 +9,16 @@ export default function Products() {
   
       <main>
         <div className="m-10 font-black text-center">
-            If you&lsquo;d like to place an order,&nbsp;
-            <a target="_blank" href="https://mtlpreserves.com/contactUs" className="underline decoration-solid text-center">contact us</a>&nbsp;
-            or go through our friends at&nbsp;
-            <a target="_blank" href="https://radish.coop/en/march%C3%A9/merchants/mtl-preserves" className="underline decoration-solid text-center">Radish Co-op</a>!
+          If you&lsquo;d like to place an order,&nbsp;
+          <a href="https://mtlpreserves.com/contactUs" className="underline decoration-solid text-center">contact us</a>&nbsp;
+          or go through our friends at&nbsp;
+          <a target="_blank" href="https://radish.coop/en/march%C3%A9/merchants/mtl-preserves" className="underline decoration-solid text-center">Radish Co-op</a>!
+          <br/>
+          Si vous souhaitez passer une commande,&nbsp;
+          <a href="https://mtlpreserves.com/contactUs" className="underline decoration-solid text-center">contactez-nous</a>&nbsp;
+          ou passez par nos amis de &nbsp;
+          <a target="_blank" href="https://radish.coop/en/march%C3%A9/merchants/mtl-preserves" className="underline decoration-solid text-center">Radish Co-op</a>!
+        
         </div>
         <div className="centRgrid m-10">
           <div className="max-w-sm bg-[#f5daab] border border-[#caa77f] rounded-lg shadow-md shadow-[#caa77f]">
