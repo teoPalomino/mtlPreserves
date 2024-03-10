@@ -27,7 +27,7 @@ export default function ContactUs() {
             </div>
           </div>
           <br/>
-          Nous nous ferons un plaisir de répondre à vos questions! Vous pouvez nous contacter à l&lsquo;adresse mtlpreserves@protonmail.com ou via les médias sociaux!
+          Nous nous ferons un plaisir de répondre à vos questions! Vous pouvez nous contacter à l&lsquo;adresse <a href="mailto:mtlpreserves@protonmail.com" className="text-blue-700 underline decoration-solid">mtlpreserves@protonmail.com</a> ou via les médias sociaux!
         </div>
       </main>
     )

@@ -4,6 +4,8 @@ import "./globals.css";
 import Button from "react-bootstrap/esm/Button";
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
+import { MdOutlineShoppingCart } from "react-icons/md";
+
 
 //components
 import Navbar from "./components/Navbar";
@@ -74,6 +76,11 @@ export default function RootLayout({
                 <Link target="_blank" href={"https://www.facebook.com/profile.php?id=100090603374739&mibextid=ZbWKwL"}>
                     <Button>
                         <FaFacebookSquare />
+                    </Button>
+                </Link>
+                <Link target="_blank" href={"https://radish.coop/en/march%C3%A9/merchants/mtl-preserves"}>
+                    <Button>
+                        <MdOutlineShoppingCart />
                     </Button>
                 </Link>
               </div>

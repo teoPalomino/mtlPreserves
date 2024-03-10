@@ -10,7 +10,7 @@ import { Carousel, Navbar } from 'flowbite-react';
 export default function HomePage() {
 
   return (
-    <main className="max-w-[90%] mt-0 pt-0">
+    <main className="max-w-[90%] mt-0 pt-0 font-black">
       <div className="centCoidHome">
         <div className="h-60 sm:h-64 xl:h-80 2xl:h-96 w-[100%] overflow-visible">
           <Carousel slideInterval={5000} className="position:fixed">

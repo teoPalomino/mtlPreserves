@@ -8,6 +8,12 @@ export default function Products() {
     return (
   
       <main>
+        <div className="m-10 font-black text-center">
+            If you&lsquo;d like to place an order,&nbsp;
+            <a target="_blank" href="https://mtlpreserves.com/contactUs" className="underline decoration-solid text-center">contact us</a>&nbsp;
+            or go through our friends at&nbsp;
+            <a target="_blank" href="https://radish.coop/en/march%C3%A9/merchants/mtl-preserves" className="underline decoration-solid text-center">Radish Co-op</a>!
+        </div>
         <div className="centRgrid m-10">
           <div className="max-w-sm bg-[#f5daab] border border-[#caa77f] rounded-lg shadow-md shadow-[#caa77f]">
             <a target="_blank" href="https://radish.coop/en/march%C3%A9/merchants/mtl-preserves/products/strawberry-jam-250-ml">
@@ -72,12 +78,6 @@ export default function Products() {
               </div>
             </a>
           </div>
-        </div>
-        <div className="m-10 font-black text-center">
-            If you&lsquo;d like to place an order,&nbsp;
-            <a target="_blank" href="https://mtlpreserves.com/contactUs" className="underline decoration-solid text-center">contact us</a>&nbsp;
-            or go through our friends at&nbsp;
-            <a target="_blank" href="https://radish.coop/en/march%C3%A9/merchants/mtl-preserves" className="underline decoration-solid text-center">Radish Co-op</a>!
         </div>
       </main>
     )
